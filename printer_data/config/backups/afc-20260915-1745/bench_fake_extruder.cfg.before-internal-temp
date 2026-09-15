@@ -1,0 +1,19 @@
+# Bench-only placeholder: satisfies AFC_extruder while no physical hotend is installed.
+# Disable by commenting the include in printer.cfg. Do not use heater or extruder motion commands.
+[extruder]
+step_pin: mcu:gpio0
+dir_pin: mcu:gpio1
+enable_pin: !mcu:gpio2
+microsteps: 16
+rotation_distance: 1
+nozzle_diameter: 0.4
+filament_diameter: 1.75
+heater_pin: mcu:gpio3
+max_power: 0.001
+sensor_type: Generic 3950
+sensor_pin: mcu:gpio26
+min_temp: -273.15
+max_temp: 1000
+control: watermark
+min_extrude_temp: 0
+max_extrude_only_distance: 1000

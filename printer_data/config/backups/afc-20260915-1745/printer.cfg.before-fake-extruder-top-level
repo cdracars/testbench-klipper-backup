@@ -1,0 +1,14 @@
+[include mainsail.cfg]
+[include AFC/bench_fake_extruder.cfg]
+# [include h36_can_combo.cfg]
+# [include ebb36_v1_2.cfg]
+[include AFC/*.cfg]
+
+[mcu]
+serial: /dev/serial/by-id/usb-Klipper_rp2040_E6614C311B346E35-if00
+
+[printer]
+kinematics: none
+max_velocity: 1000
+max_accel: 1000
+

@@ -1,6 +1,5 @@
 [include mainsail.cfg]
 [include bench_fake_extruder.cfg]
-[include longboi_hardware_tests.cfg]
 # [include h36_can_combo.cfg]
 # [include ebb36_v1_2.cfg]
 [include AFC/*.cfg]
